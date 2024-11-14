@@ -1,0 +1,26 @@
+Date : 14 Nov 24
+Purpose : After the factory interview, try to rebuild the App after 2 months no build.
+
+Step : 
+
+1. Install libraries
+$ npx create-expo-app --template blank my-todo-app
+$ npm install @react-navigation/native
+$ npm install @react-navigation/bottom-tabs
+$ npm install react-native-vector-icons
+$ npx expo install expo-camera
+
+Note : ลงเผื่อตอน Build จริงไว้กันลืมเลย
+$ npx expo install react-native-screens react-native-safe-area-context
+
+
+
+
+
+2. Copy the template navigation and context files (in correct directory).
+
+
+
+3. ChatGPT code for barcode reader
+
+I am using Expo camera to read the barcode 
